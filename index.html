@@ -19,6 +19,43 @@
         text-align: center;
         font-weight: 900;
     }
+    #whatsapp-button {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    z-index: 999;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    width: 40px; /* Set a default width */
+    height: 40px; /* Set a default height */
+}
+
+#whatsapp-button:hover {
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+@media (max-width: 1180px) {
+    #whatsapp-button {
+        width: 30px; /* Adjust the width for this screen width */
+        height: 30px; /* Adjust the height for this screen width */
+    }
+}
+
+@media (max-width: 900px) {
+    #whatsapp-button {
+        width: 20px; /* Adjust the width for this screen width */
+        height: 20px; /* Adjust the height for this screen width */
+    }
+}
+
+@media (max-width: 767px) {
+    #whatsapp-button {
+        width: 10px; /* Adjust the width for this screen width */
+        height: 10px; /* Adjust the height for this screen width */
+    }
+}
 </style>
 </head>
 <body>
@@ -88,7 +125,7 @@
               </div>
             </div>
           </li>
-          <li class="l-section section">
+          <li class="l-section section">           
             <div class="work">
               <h2>Selected Research Works</h2>
               <div class="work--lockup">
@@ -195,6 +232,11 @@
                 </div>
               </div>
             </div>
+            <div id="whatsapp-button">
+              <a href="https://wa.me/2349036933998" target="_blank">
+                 <img src="assets/img/whatsapp.png" alt="WhatsApp Icon">
+              </a>
+           </div>
           </li>
           <li class="l-section section">
             <div class="about">
@@ -208,7 +250,6 @@
                 <a href="research-solutions.html">
                   <h3>Research Solutions</h3>
                       <h3 style="color: red;">Research Solutions</h3>
-
                 </a>
                 <a href="research-materials.html">
                   <h3>Research Materials</h3>
@@ -218,6 +259,11 @@
                 </a>
               </div>
             </div>
+            <div id="whatsapp-button">
+              <a href="https://wa.me/2349036933998" target="_blank">
+                 <img src="assets/img/whatsapp.png" alt="WhatsApp Icon">
+              </a>
+           </div>
           </li>
           <li class="l-section section">
             <div class="contact">
@@ -236,6 +282,11 @@
                 </div>
               </div>
             </div>
+            <div id="whatsapp-button">
+              <a href="https://wa.me/2349036933998" target="_blank">
+                 <img src="assets/img/whatsapp.png" alt="WhatsApp Icon">
+              </a>
+           </div>
           </li>
           <li class="l-section section">
             <div class="hire">
@@ -321,6 +372,11 @@
                 <input type="submit" value="Send Request">
               </form>
             </div>
+            <div id="whatsapp-button">
+              <a href="https://wa.me/2349036933998" target="_blank">
+                 <img src="assets/img/whatsapp.png" alt="WhatsApp Icon">
+              </a>
+           </div>
           </li>
         </ul>
       </div>
