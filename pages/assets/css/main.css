@@ -571,7 +571,6 @@ body {
 .intro--banner {
   position: relative;
   height: 800px;
-  background-image: url("../img/AGR.png")
 }
 .intro--banner::before {
   content: "";
